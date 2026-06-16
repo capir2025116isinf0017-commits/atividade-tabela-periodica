@@ -1,0 +1,56 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    text-align: center;
+    margin: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+.tabela {
+    display: grid;
+    grid-template-columns: repeat(5, 80px);
+    gap: 10px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.elemento {
+    background: #4CAF50;
+    color: white;
+    border-radius: 10px;
+    padding: 15px;
+    cursor: pointer;
+    transition: 0.3s;
+    user-select: none;
+}
+
+.elemento:hover {
+    transform: scale(1.05);
+    background: #45a049;
+}
+
+.numero {
+    font-size: 12px;
+}
+
+.simbolo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nome {
+    font-size: 12px;
+}
+
+.info {
+    max-width: 600px;
+    margin: 30px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,.1);
+}
