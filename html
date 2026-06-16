@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tabela Periódica Interativa</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h1>Gases Nobres</h1>
+
+<div class="tabela">
+    <div class="elemento"
+         onclick="mostrarInfo('Hélio', 'O Hélio é  é o segundo elemento mais abundante do universo.')">
+        <div class="numero">2</div>
+        <div class="simbolo">He</div>
+        <div class="nome">Hélio</div>
+    </div>
+
+    <div class="elemento"
+         onclick="mostrarInfo('Neônio', 'O Neônio famoso pelo brilho vermelho-alaranjado intenso que emite quando submetido a correntes elétricas, sendo amplamente utilizado em letreiros luminosos e anúncios publicitários.')">
+        <div class="numero">10</div>
+        <div class="simbolo">Ne</div>
+        <div class="nome">Neônio</div>
+    </div>
+
+    <div class="elemento"
+         onclick="mostrarInfo('Argônio', 'Ele constitui cerca de 1% da atmosfera terrestre. É amplamente utilizado na indústria, principalmente como atmosfera de proteção na soldagem e em lâmpadas para evitar a queima dos filamentos.')">
+        <div class="numero">6</div>
+        <div class="simbolo">C</div>
+        <div class="nome">Carbono</div>
+    </div>
+
+    <div class="elemento"
+         onclick="mostrarInfo('Criptônio', 'O Oxigênio é essencial para a respiração da maioria dos seres vivos.')">
+        <div class="numero">8</div>
+        <div class="simbolo">O</div>
+        <div class="nome">Oxigênio</div>
+    </div>
+</div>
+
+<div class="info">
+    <h2 id="titulo">Selecione um elemento</h2>
+    <p id="descricao">
+        Toque ou clique em um elemento para ver sua descrição.
+    </p>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
