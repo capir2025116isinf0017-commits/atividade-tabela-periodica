@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela Periodica</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+         <img src="ChatGPT Image 17 de jun. de 2026, 16_52_36.png" alt="Tabela Periódica dos Elementos Químicos">
+
+        <h1>Tabela Periodica</h1>
+    </header>
+    
+    <img src="https://www.tabelaperiodica.org/wp-content/uploads/2018/05/Tabela-completa-5-algarismos-sem-intervalo-v5b-colorida.jpg" alt="Tabela Periódica dos Elementos Químicos">
+
+    <section>
+        A tabela periódica é uma disposição tabular dos elementos químicos,<br> 
+        organizada com base em suas propriedades químicas e físicas.<br> 
+        Ela foi desenvolvida por Dmitri Mendeleev em 1869 e tem sido uma<br> 
+        ferramenta fundamental na química para entender as relações entre os<br> elementos.
+    </section>
+
+</body>
+</html>
