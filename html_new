@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela Periodica</title>
+    <link rel="stylesheet" href="tyle3.css">
+</head>
+<body>
+    <header>
+         <img src="ChatGPT Image 17 de jun. de 2026, 17_00_07.png" alt="Tabela Periódica dos Elementos Químicos" class="logo">
+
+        <h1>Tabela Periodica Interativa</h1>
+    </header>
+    <div class="conteudo">
+    <aside>
+    <h2>Famílias Químicas</h2>
+
+    <nav>
+        <ul>
+            <li><a href="alcalinos.html">Metais Alcalinos</a></li>
+            <li><a href="alcalino-terrosos.html">Metais Alcalino-Terrosos</a></li>
+            <li><a href="metais-transicao.html">Metais de Transição</a></li>
+            <li><a href="halogenios.html">Halogênios</a></li>
+            <li><a href="gases-nobres.html">Gases Nobres</a></li>
+            <li><a href="lantanideos.html">Lantanídeos</a></li>
+            <li><a href="actinideos.html">Actinídeos</a></li>
+        </ul>
+    </nav>
+</aside>
+    <section>
+        <p>
+            A Tabela Periódica dos Elementos Químicos é uma das ferramentas mais poderosas e elegantes da ciência.
+        </p>
+             <p>Ela não é apenas uma lista de elementos, mas sim um mapa organizado que prevê o comportamento da matéria no universo.</p>
+        <img src="images.png" class="imagem">
+        <h3>
+            O que é e para que serve?
+        </h3>
+        <p>
+            A tabela organiza todos os elementos químicos conhecidos (atualmente 118)
+             em ordem crescente de número atômico (quantidade de prótons no núcleo).
+            Sua grande magia é a periodicidade: os elementos são organizados de forma que aqueles
+            com propriedades químicas e físicas semelhantes fiquem próximos ou na mesma coluna.
+        </p>
+        <h3>
+            A Estrutura da Tabela
+        </h3>
+        <p>
+            A tabela é dividida em uma grade perfeita de linhas e colunas:
+        </p>
+        <h4>
+            As Linhas: Períodos (Sete)
+        </h4>
+        <p>
+            Correspondem às camadas eletrônicas (níveis de energia) que o átomo possui.
+            Se um elemento está no Período 3 (como o Sódio),
+            significa que seus elétrons estão distribuídos em 3 camadas orbitais.
+
+        </p>
+        <h4>
+            As Colunas: Grupos ou Famílias (Dezoito)
+        </h4>
+        <p>
+            Os elementos no mesmo grupo possuem o mesmo número de elétrons na camada de valência (a camada mais externa).
+            Por causa disso, eles reagem de forma muito parecida.
+
+        </p>
+    </section>
+    </div>
+</body>
+</html>
