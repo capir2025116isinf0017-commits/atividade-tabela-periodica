@@ -1,0 +1,156 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:#f4f7ef;
+    color:#333;
+}
+
+/* Cabeçalho */
+header{
+    background-color:#b8cb74;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:20px;
+    padding:25px;
+    box-shadow:0 2px 8px rgba(0,0,0,0.1);
+}
+
+.logo{
+    width:90px;
+    height:auto;
+}
+
+header h1{
+    font-size:2rem;
+    color:#1f2d0f;
+}
+
+/* Conteúdo principal */
+.conteudo{
+    display:flex;
+    gap:20px;
+    padding:20px;
+    align-items:flex-start;
+}
+
+/* Caixa lateral */
+aside{
+    width:300px;
+    min-height:350px;
+    background-color:#c8d98b;
+    padding:20px;
+    border-radius:15px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* Caixa principal */
+section{
+    flex:1;
+    background-color:#c8d98b;
+    padding:20px;
+    border-radius:15px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.1);
+    line-height:1.6;
+    text-align:center;
+}
+
+/* Imagem */
+.imagem{
+    display:block;
+    width:80%;
+    max-width:700px;
+    margin:20px auto 0;
+    border-radius:10px;
+    box-shadow:0 4px 12px rgba(0,0,0,0.2);
+}
+
+/* Efeito ao passar o mouse */
+aside:hover,
+section:hover{
+    transform:translateY(-3px);
+    transition:0.3s;
+}
+
+/* Responsividade */
+@media (max-width: 768px){
+
+    header{
+        flex-direction:column;
+        text-align:center;
+    }
+
+    .conteudo{
+        flex-direction:column;
+    }
+
+    aside{
+        width:100%;
+        min-height:auto;
+    }
+
+    .imagem{
+        width:100%;
+    }
+}
+aside h2{
+    background-color:#8aa84f;
+    color:white;
+    padding:12px;
+    border-radius:8px;
+    text-align:center;
+    margin-bottom:20px;
+    box-shadow:0 2px 5px rgba(0,0,0,0.2);
+}
+
+aside ul{
+    list-style:none;
+}
+
+aside li{
+    margin-bottom:12px;
+}
+
+aside a{
+    display:block;
+    text-decoration:none;
+    background-color:#687e3c;
+    color:white;
+    padding:12px;
+    border-radius:8px;
+    transition:0.3s;
+    font-weight:bold;
+}
+
+aside a:hover{
+    background-color:#435321;
+    transform:translateX(5px);
+}
+section h3{
+    background-color:#8aa84f;
+    color:white;
+    padding:12px;
+    border-radius:8px;
+    margin:25px 0 15px 0;
+}
+section h4{
+    color:#4f6b1e;
+    margin:20px 0 10px 0;
+    border-left:5px solid #8aa84f;
+    padding-left:10px;
+    text-align: left;
+}
+section p{
+    margin-bottom:15px;
+    text-align:justify;
+}
+section p:first-of-type{
+    font-size:1.2rem;
+    font-weight:bold;
+    color:#2f4f2f;
+}
